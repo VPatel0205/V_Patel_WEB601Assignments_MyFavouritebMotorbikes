@@ -40,6 +40,30 @@ export class ContentListComponent implements OnInit {
         creator:"Chinese manufacture",
         imgURL:"https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/keeway-select-model-glossy-black-1661846908522.gif?q=80",
         type:"Vintage"
+      },
+      {
+        id: 3,
+        title: "Jawa Perak",
+        description: "The Jawa Perak is a classic cruiser motorcycle with a retro design, reminiscent of vintage bikes. It features a powerful engine and a distinctive bobber-style appearance.",
+        creator: "Jawa Motorcycles (Czech brand with Indian ownership)",
+        imgURL: "https://imgd.aeplcdn.com/664x374/n/cw/ec/53643/perak-right-front-three-quarter.jpeg?q=80",
+        type: "Vintage"
+      },
+      {
+        id: 4,
+        title: "Royal Enfield Meteor 350",
+        description: "The Royal Enfield Meteor 350 is a modern classic cruiser with a timeless design. It offers a comfortable ride and is known for its relaxed cruising capabilities.",
+        creator: "Royal Enfield (Indian manufacturer)",
+        imgURL: "https://www.royalenfield.com/content/dam/royal-enfield/meteor-new/section8/new/matt_green/j1d_d1_matt_green_0000.jpg",
+        type: "Vintage"
+      },
+      {
+        id: 5,
+        title: "Suzuki SV650X",
+        description: "The Suzuki SV650X is a sporty yet retro-styled motorcycle with a nod to the cafe racer genre. It combines modern performance with a classic aesthetic.",
+        creator: "Suzuki Motor Corporation (Japanese manufacturer)",
+        imgURL: "https://www.cycleworld.com/resizer/ZoyguKWz4sNSlUEGYb5EFuezBgM=/1440x0/smart/cloudfront-us-east-1.images.arcpublishing.com/octane/MKMXRZXHIM62AYSG66P4IMCFEI.jpg",
+        type: "Vintage"
       }
     ];
   }
