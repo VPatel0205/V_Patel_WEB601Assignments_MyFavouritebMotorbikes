@@ -5,11 +5,11 @@ import { ContentCardComponent } from '../content-card/content-card.component';
 import { TypeseperatorPipe } from '../typeseperator.pipe';
 import { FormsModule } from '@angular/forms';
 import { HoverAffectDirective } from '../hover-affect.directive';
-
+import { CreateContentComponent } from '../create-content/create-content.component';
 @Component({
   selector: 'app-content-list',
   standalone: true,
-  imports: [CommonModule, ContentCardComponent, TypeseperatorPipe, FormsModule,HoverAffectDirective],
+  imports: [CommonModule, ContentCardComponent, TypeseperatorPipe, FormsModule,HoverAffectDirective, CreateContentComponent],
   templateUrl: './content-list.component.html',
   styleUrl: './content-list.component.scss'
 })
@@ -105,5 +105,7 @@ export class ContentListComponent implements OnInit {
       }
     ];
   }
- 
+  onContentCreated(newContent: any) {
+    this.contentItems.push({ ...newContent }); // Clone the content
+  }
 }
